@@ -1,0 +1,34 @@
+{
+  "name": "sb_client",
+  "version": "0.0.1",
+  "description": "javascript client for project Switchboard",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "webpack-dev-server --content-base build/ --host 0.0.0.0 --inline --hot --history-api-fallback",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "author": "Jeff Levy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "file-loader": "^0.8.5",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "apollo-client": "^0.3.19",
+    "graphql-tag": "^0.1.7",
+    "react": "^15.1.0",
+    "react-apollo": "^0.3.9",
+    "react-dom": "^15.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.4.1",
+    "redux": "^3.5.2"
+  }
+}
