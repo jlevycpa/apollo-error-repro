@@ -1,7 +1,7 @@
 {
-  "name": "sb_client",
+  "name": "apollo-error-repro",
   "version": "0.0.1",
-  "description": "javascript client for project Switchboard",
+  "description": "error reproduction for react-apollo",
   "main": "bundle.js",
   "scripts": {
     "start": "webpack-dev-server --content-base build/ --host 0.0.0.0 --inline --hot --history-api-fallback",
