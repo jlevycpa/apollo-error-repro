@@ -1,4 +1,4 @@
-This repo is intended to be a repoduction of this [issue](https://github.com/apollostack/react-apollo/issues/57).
+This repo is intended to be a reproduction of this [issue](https://github.com/apollostack/react-apollo/issues/57).
 
 To get started:
 
